@@ -24,6 +24,11 @@ export const MainPerson = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        select{
+            font-size: large;
+            border: 1px solid white;
+        }
         p:nth-child(2){
             color: #B9BEC3;
         }

@@ -28,6 +28,7 @@ export const FooterMain = styled.div`
             padding: 16px;
         }
     }
+    
     div:last-child{
         a{
             display: flex;
