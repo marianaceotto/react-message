@@ -1,17 +1,19 @@
 import { useState } from "react";
 import { Main } from "./mainStyled";
-import Chat from "./components/chat";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import Chat from "./components/Chat/chat";
+import Footer from "./components/Footer/footer";
+import Header from "./components/Header/header";
 
 function App() {
 
  
   const [messages, setMessages] = useState([])
-  const [person,setPerson] = useState("")
+  const [person, setPerson] = useState("")
 
   
   return (
+    <>
+
     <Main>
       <Header
         person={person}
@@ -26,7 +28,9 @@ function App() {
         messages={messages} 
         setMessages={setMessages}
       />
+
     </Main>
+    </>
   );
 }
 

@@ -6,6 +6,7 @@ export const MainChatBox = styled.div`
     flex-direction: column;
     flex-grow: 1;
     padding: 16px;
+    background-color: #D8D0C6
 `
 
 export const Message = styled.div`
@@ -19,25 +20,30 @@ export const Message = styled.div`
     margin-bottom: 16px;
     
         h1 {
-            font-weight: 500;
-            font-size: 20px;
-            text-transform:uppercase;
+            font-weight: bold;
+            font-size: 16px;
             padding-bottom: 4px;
         }
         
         div {
             display: flex;
             flex-direction: column;
-            p {
+            p:first-child {
                 font-weight: 400;
                 font-size: 16px;
                 word-wrap: break-word;
             }
+            
+            p:last-child{
+                font-size: 10px;
+            }
+
             div {
                 font-weight: 500px;
                 font-size: 11px;
                 color: #727272;
                 margin-left: auto;
+                
             img {
                 width: 16px;
                 margin-left: 4px;

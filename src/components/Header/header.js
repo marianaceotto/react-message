@@ -1,6 +1,6 @@
-import phone from "../assets/phone.svg"
-import camera from "../assets/video-cam.svg"
-import pontinhos from "../assets/pontinhos.svg"
+import phone from "../../assets/phone.svg"
+import camera from "../../assets/video-cam.svg"
+import pontinhos from "../../assets/pontinhos.svg"
 import { MainHeader, MainPerson , Icons} from "./headerStyled"
 
 function Header(props) {
